@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/home.css">
+        <title>vegetables</title>
+        
+
+
+
+    </head>
+    <body>
+        <header>
+            <a href="/"><img class="logo" src="/img/logo.jpeg" alt="logo"></a>
+            <div>
+                <div class="dropdown">   
+                    <a>Tutorials </a>
+                    <div class="dropdown-content">
+                        <p>fruits</p>
+                        <p>vegetables</p>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a>Tutorials </a>
+                    <div class="dropdown-content">
+                        <p>fruits</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="dropdown">
+                <a id="account">My Account</a>
+                <div class="dropdown-content">
+                    <p><a href="/login">log in</a></p>
+                    <p><a href="/signin">Sign in</a></p>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="header">
+            <h1>French Audio</h1></div>
+        </div>
+        <div class="topnav">
+            <a href="/">home</a>
+            <a href="/conjonction">conjonction</a>
+            <a href="#">fruit</a>
+            <a href="/vegetables">vegetables</a>
+        </div><br><br><br>
+        
+        <div class="row">
+            <div class="gallery" id="sweetcorn">
+                <img class="vegetables" src="pic/veg-fruit/sweetcorn.jpg" alt="sweetcore" onmouseover="bigImg('sweetcorn')" onmouseout="normalImg('sweetcorn')" onclick="playAudio('sweetcorn')">
+                <div class="text"> </div>
+                <audio src="audio/mais.mp3" type="audio/mpeg"></audio>
+            </div>    
+        </div>
+        <div class="row">
+            <div class="gallery"  id="bellpepper">
+                <img class="vegetables" src="pic/veg-fruit/bellpepper.jpg" alt="bellpepper" onmouseover="bigImg('bellpepper')" onmouseout="normalImg('bellpepper')" onclick="playAudio('bellpepper')">
+                <div class="text"> </div>
+                <audio id = "bellpepper_audio" src="audio/poivron.m4a" type="audio/mpeg"></audio>
+            </div> 
+        </div>   
+        <div class="row">
+            <div class="gallery"  id="bittermelon">
+                <img class="vegetables" src="pic/veg-fruit/bittermelon.jpg" alt="bittermelon" onmouseover="bigImg('bittermelon')" onmouseout="normalImg('bittermelon')" onclick="playAudio('bittermelon')">
+                <div class="text"> </div>
+                <audio id = "bittermelon_audio" src="audio/mais.mp3" type="audio/mpeg"></audio>
+            </div>    
+        </div>
+        <div class="row">
+            <div class="gallery"  id="cucumber">
+                <img class="vegetables" src="pic/veg-fruit/cucumber.jpg" alt="cucumber" onmouseover="bigImg('cucumber')" onmouseout="normalImg('cucumber')" onclick="playAudio('cucumber')">
+                <div class="text"> </div>
+                <audio id = "cucumber_audio" src="audio/concombre.mp3" type="audio/mpeg"></audio>
+            </div>    
+        </div>
+        <div class="row">
+            <div class="gallery"  id="eggplant">
+                <img class="vegetables" src="pic/veg-fruit/eggplant.jpg" alt="eggplant" onmouseover="bigImg('eggplant')" onmouseout="normalImg('eggplant')" onclick="playAudio('eggplant')">
+                <div class="text"> </div>
+                <audio id = "eggplant_audio" src="audio/aubergine.mp3" type="audio/mpeg"></audio>
+            </div>
+        </div>    
+        <div class="row">
+            <div class="gallery"  id="pumpkin">
+                <img class="vegetables" src="pic/veg-fruit/pumpkin.jpg" alt="pumpkin" onmouseover="bigImg('pumpkin')" onmouseout="normalImg('pumpkin')" onclick="playAudio('pumpkin')">
+                <div class="text"> </div>
+                <audio id = "pumpkin_audio" src="audio/potiron.mp3" type="audio/mpeg"></audio>
+            </div>    
+        </div>
+        <div class="row">
+            <div class="gallery"  id="tomato">
+                <img class="vegetables" src="pic/veg-fruit/tomato.jpg" alt="tomato" onmouseover="bigImg('tomato')" onmouseout="normalImg('tomato')" onclick="playAudio('tomato')">
+                <div class="text"> </div>
+                <audio id = "tomato_audio" src="audio/tomate.mp3" type="audio/mpeg"></audio>
+            </div>    
+        </div>
+        <div class="row">
+            <div class="gallery"  id="zucchini">
+                <img class="vegetables" src="pic/veg-fruit/zucchini.jpg" alt="zucchini" onmouseover="bigImg('zucchini')" onmouseout="normalImg('zucchini')" onclick="playAudio('zucchini')">
+                <div class="text"> </div>
+                <audio id = "zucchini_audio" src="audio/courgette.mp3" type="audio/mpeg"></audio>
+            </div>    
+        </div>
+        <div class="row">
+            <div class="gallery"  id="daikon">
+                <img class="vegetables" src="pic/veg-root/daikon.jpg" alt="daikon" onmouseover="bigImg('daikon')" onmouseout="normalImg('daikon')" onclick="playAudio('daikon')">
+                <div class="text"> </div>
+                <audio id = "daikon_audio" src="audio/courgette.mp3" type="audio/mpeg"></audio>
+            </div>    
+        </div>
+
+
+        <div class="row">
+            <div class="gallery">
+                <label for="imgfile" class="costum_imgfile">+</label><p></p>
+                <input type="file" id="imgfile" placeholder="add here">
+                <input type="submit">
+            </div>
+        </div>
+        
+
+
+
+
+
+        <div class="clearfix"></div>
+        <div class="footer">
+            <h2>footer</h2>
+        </div>
+    </body>
+    <script src="js/vegetables.js"></script>
+    <script src="js/control.js"></script>
+
+</html>
