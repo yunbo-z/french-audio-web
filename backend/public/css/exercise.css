@@ -1,0 +1,19 @@
+.exercisetables {
+    /* background-color: blueviolet; */
+
+}
+
+#showcorrectanswercontainer {
+    /* background-color: brown; */
+    width: 100%;
+    /* text-align: center; */
+
+
+
+}
+.footer{
+    background-color: #ddd;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
